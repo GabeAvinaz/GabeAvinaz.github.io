@@ -1,0 +1,136 @@
+/* Define custom variables using the specified color scheme */
+:root {
+    --russian-violet: #281C4A;
+    --lavender: #DAD2EE;
+    --caribbean-current: #246a73ff;
+    --dark-cyan: #368f8bff;
+    --champagne: #f3dfc1ff;
+    --desert-sand: #ddbea8ff;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--russian-violet); /* Set background color using custom variable */
+    color: var(--champagne); /* Set text color using custom variable */
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    background-color: var(--caribbean-current); /* Set navbar background color using custom variable */
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: var(--dark-cyan); /* Set hover color using custom variable */
+  }
+  
+  /* Section Styling */
+  .section-heading {
+    color: var(--caribbean-current); /* Set section heading color using custom variable */
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .section-content {
+    color: var(--champagne); /* Set section content color using custom variable */
+  }
+  
+  #projects {
+    background-color: #160F29; /* Set projects section background color */
+  }
+
+
+  /* Project Card Styling */
+  .project-card {
+    border: 1px solid var(--champagne); /* Set border color using custom variable */
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: var(--russian-violet); /* Set card background color using custom variable */
+  }
+  
+  .project-card h4 {
+    color: var(--caribbean-current); /* Set project title color using custom variable */
+    margin-bottom: 15px;
+  }
+  
+  .project-card p {
+    color: var(--champagne); /* Set project description color using custom variable */
+  }
+  
+  .project-card a {
+    background-color: var(--dark-cyan); /* Set "View Project" button background color using custom variable */
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .project-card a:hover {
+    background-color: #2b6670; /* Darker version of dark-cyan on hover */
+  }
+  
+  /* Contact Form Styling */
+  .contact-form {
+    border: 1px solid var(--caribbean-current); /* Set form border color using custom variable */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form label {
+    color: var(--caribbean-current); /* Set label color using custom variable */
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    background-color: var(--dark-cyan); /* Set submit button background color using custom variable */
+    border: none;
+    color: #fff;
+  }
+  
+  .contact-form button:hover {
+    background-color: #2b6670; /* Darker version of dark-cyan on hover */
+  }
+  
+  /* Responsive Image Styling */
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* ... other styles ... */
+
+.social-media a {
+    /* Set social media button background color using custom variable */
+    color: var(--champagne);
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-right: 10px; /* Add a margin to separate the buttons */
+  }
+  
+  .social-media a:hover {
+    background-color: var(--champagne); /* Darker version of champagne on hover */
+  }
+
+  /* Projects Section Styling */
+#projects {
+    background-color: var(--lavender); /* Set project section background color using custom variable */
+  }
+  
